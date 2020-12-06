@@ -13,6 +13,27 @@ import cart from "../../assets/projects_images/cart.jpg";
 
 const data_projects = [
   {
+    name: "StoryBooks",
+    image: story,
+    deployed_url: "https://node-story-creator.herokuapp.com/",
+    github_url: "https://github.com/i-1404063/StoryBooks",
+    category: ["node.js", "mongoDB"],
+  },
+  {
+    name: "Glozzom",
+    image: glozzom,
+    deployed_url: "https://i-1404063.github.io/Glozzom/",
+    github_url: "https://github.com/i-1404063/Glozzom",
+    category: ["html_css", "vanilla"],
+  },
+  {
+    name: "Mizuxe",
+    image: mizuxe,
+    deployed_url: "https://i-1404063.github.io/Mizuxe/",
+    github_url: "https://github.com/i-1404063/Mizuxe",
+    category: ["html_css", "vanilla"],
+  },
+  {
     name: "React-Todo-List",
     image: todo,
     deployed_url: "https://i-1404063.github.io/React-Todo-List/",
@@ -39,7 +60,7 @@ const data_projects = [
     name: "Facebook Landing Page",
     image: facebook,
     deployed_url: "https://i-1404063.github.io/Facebook-landing-page/",
-    github_url:"https://github.com/i-1404063/Facebook-landing-page",
+    github_url: "https://github.com/i-1404063/Facebook-landing-page",
     category: ["html_css", "vanilla"],
   },
 
@@ -48,7 +69,7 @@ const data_projects = [
     image: lister,
     deployed_url: "https://i-1404063.github.io/Item-Lister/",
     github_url: "https://github.com/i-1404063/Item-Lister",
-    category: ["html_css","vanilla"],
+    category: ["html_css", "vanilla"],
   },
 
   {
@@ -56,15 +77,7 @@ const data_projects = [
     image: rental,
     deployed_url: "https://reactjs-vidly-frontend.herokuapp.com/movies",
     github_url: "https://github.com/i-1404063/reactjs-vidly",
-    category: ["react.js","node.js","MongoDB"],
-  },
-
-  {
-    name: "StoryBooks",
-    image: story,
-    deployed_url: "https://node-story-creator.herokuapp.com/",
-    github_url: "https://github.com/i-1404063/StoryBooks",
-    category: ["node.js","mongoDB"],
+    category: ["react.js", "node.js", "MongoDB"],
   },
 
   {
@@ -82,20 +95,8 @@ const data_projects = [
     github_url: "https://github.com/i-1404063/LoopLab",
     category: ["html_css", "vanilla"],
   },
-  {
-    name: "Mizuxe",
-    image: mizuxe,
-    deployed_url: "https://i-1404063.github.io/Mizuxe/",
-    github_url: "https://github.com/i-1404063/Mizuxe",
-    category: ["html_css", "vanilla"],
-  },
-  {
-    name: "Glozzom",
-    image: glozzom,
-    deployed_url: "https://i-1404063.github.io/Glozzom/",
-    github_url: "https://github.com/i-1404063/Glozzom",
-    category: ["html_css", "vanilla"],
-  },
+
+
 ];
 
 export default data_projects;
