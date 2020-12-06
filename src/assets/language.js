@@ -38,12 +38,17 @@ const languages = [
   },
   {
     icon: react,
-    name: "SQL",
+    name: "MongoDB",
+    level: "50"
+  },
+  {
+    icon: react,
+    name: "MySql",
     level: "65"
   },
   {
     icon: react,
-    name: "MongoDB",
+    name: "PostgreSQL",
     level: "50"
   },
   {

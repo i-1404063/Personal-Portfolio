@@ -9,18 +9,18 @@ export const skills = [
     icon: frontend,
     title: "Frontend Development",
     about:
-      ["I will build your eye-catching landing page with ", <strong key="1">HTML CSS & REACTJS</strong>]
+      ["I will build your eye-catching landing page with ", <strong key="1">HTML, CSS, BOOTSTRAP, MATERIAL-UI & REACTJS</strong>]
   },
   {
     icon: backend,
     title: "Backend Development",
     about:
-      ["I will create your backend using ", <strong key="2">NodeJs & Express</strong>, ". Managing data using ",<strong key="3">MongoDB & Sql</strong>],
+      ["I will create your backend using ", <strong key="2">NodeJs & Express</strong>, ". Managing data using ", <strong key="3">MONGODB, MYSQL & POSTGRESQL</strong>],
   },
   {
     icon: api,
     title: "Api Development",
     about:
-      ["I will create robust api for your site using ", <strong key="4">Node & Express</strong>],
+      ["I will create robust api for your site using ", <strong key="4">NODE, EXPRESS & GRAPHQL</strong>],
   }
 ];

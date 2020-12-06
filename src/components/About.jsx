@@ -26,7 +26,7 @@ const About = props => {
       animate="visible"
       exit="exit">
       <h6 className="about__intro">
-        I am a freelance web developer. I have more than six months hands on experience of different web technology.
+        I have more than a year of hands on experience of different web technology.
       </h6>
       <div className="container about__container">
         <h5 className="about__heading">What I Offer</h5>
