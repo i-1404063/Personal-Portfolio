@@ -13,12 +13,12 @@ const languages = [
   },
   {
     icon: react,
-    name: "Javascript",
+    name: "Javascript & Typescript",
     level: "60",
   },
   {
     icon: react,
-    name: "ReactJs",
+    name: "ReactJs & Context Api",
     level: "65",
   },
   {
@@ -33,8 +33,33 @@ const languages = [
   },
   {
     icon: react,
-    name: "NodeJs",
-    level: "60"
+    name: "NodeJs & Express",
+    level: "70"
+  },
+  {
+    icon: react,
+    name: "Django",
+    level: "50"
+  },
+  {
+    icon: react,
+    name: "Laravel",
+    level: "50"
+  },
+  {
+    icon: react,
+    name: "C#",
+    level: "50"
+  },
+  {
+    icon: react,
+    name: "Python",
+    level: "50"
+  },
+  {
+    icon: react,
+    name: "Golang",
+    level: "50"
   },
   {
     icon: react,
@@ -51,27 +76,27 @@ const languages = [
     name: "PostgreSQL",
     level: "50"
   },
-  {
-    icon: react,
-    name: "C#",
-    level: "50"
-  },
-  {
-    icon: react,
-    name: "Python",
-    level: "50"
-  },
 ];
 
 const tools = [
   {
     icon: react,
-    name: "Figma",
+    name: "Git",
     level: "50",
   },
   {
     icon: react,
-    name: "Git",
+    name: "Docker",
+    level: "60"
+  },
+  {
+    icon: react,
+    name: "Kubernetes",
+    level: "40"
+  },
+  {
+    icon: react,
+    name: "Figma",
     level: "50",
   },
   {

@@ -57,7 +57,7 @@ body {
 .sidebar__avatar {
   height: 120px;
   width: 120px;
-  object-fit: contain;
+  /* object-fit: scale-down; */
   border-radius: 50%;
 }
 

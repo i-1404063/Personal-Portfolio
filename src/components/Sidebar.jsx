@@ -24,14 +24,14 @@ const Sidebar = props => {
       initial="hidden"
       animate="visible">
       <img
-        src={require("../assets/my-photo.png")}
+        src={require("../assets/my-photo.jpg")}
         alt="avatar"
         className="sidebar__avatar"
       />
       <div className="sidebar__name">
         Faruk <span>Ahamad</span>
       </div>
-      <div className="sidebar__item sidebar__title">Software Developer</div>
+      <div className="sidebar__item sidebar__title">Software Engineer</div>
       <a href={resume} download="resume.pdf" className="link">
         <div className="sidebar__item sidebar__resume">
           <img
@@ -43,6 +43,13 @@ const Sidebar = props => {
         </div>
       </a>
       <figure className="sidebar__social-icons my-2">
+        <a href="https://www.linkedin.com/in/faruk-ahamad-imon-99982610a/" className="link" target="_blank" rel="noopener noreferrer">
+          <img
+            src={require("../assets/icons/linkedin.png")}
+            alt="linkedin"
+            className="sidebar__icon mr-3"
+          />
+        </a>
         <a href="https://www.facebook.com/" className="link" target="_blank" rel="noopener noreferrer">
           <img
             src={require("../assets/icons/facebook.svg")}
@@ -79,6 +86,7 @@ const Sidebar = props => {
           Shyamoly,Dhaka
         </div>
         <div className="sidebar__item">imonhasans33@gmail.com</div>
+        <div className="sidebar__item">faruk.ahamad@jbbc.co.jp</div>
         <div className="sidebar__item">01983-832024</div>
       </div>
       <div onClick={handleEmail} className="sidebar__item sidebar__email">
