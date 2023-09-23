@@ -8,73 +8,38 @@ const languages = [
   },
   {
     icon: react,
-    name: "Bootstrap",
-    level: "70"
+    name: "Bootstrap, Material-Ui, Antd, Chakra-ui",
+    level: "90"
+  },
+  {
+    icon: react,
+    name: "ReactJs, Nextjs, Context-api, Redux",
+    level: "90",
   },
   {
     icon: react,
     name: "Javascript & Typescript",
-    level: "60",
-  },
-  {
-    icon: react,
-    name: "ReactJs & Context Api",
-    level: "65",
-  },
-  {
-    icon: react,
-    name: "Redux",
-    level: "70"
-  },
-  {
-    icon: react,
-    name: "Material-Ui",
-    level: "60"
-  },
-  {
-    icon: react,
-    name: "NodeJs & Express",
-    level: "70"
-  },
-  {
-    icon: react,
-    name: "Django",
-    level: "50"
-  },
-  {
-    icon: react,
-    name: "Laravel",
-    level: "50"
-  },
-  {
-    icon: react,
-    name: "C#",
-    level: "50"
+    level: "90",
   },
   {
     icon: react,
     name: "Python",
-    level: "50"
+    level: "80"
+  },
+  {
+    icon: react,
+    name: "Java",
+    level: "70"
   },
   {
     icon: react,
     name: "Golang",
-    level: "50"
+    level: "70"
   },
   {
     icon: react,
-    name: "MongoDB",
-    level: "50"
-  },
-  {
-    icon: react,
-    name: "MySql",
-    level: "65"
-  },
-  {
-    icon: react,
-    name: "PostgreSQL",
-    level: "50"
+    name: "PostgreSQL, Mysql, Mongodb, Redis",
+    level: "90"
   },
 ];
 
@@ -82,26 +47,26 @@ const tools = [
   {
     icon: react,
     name: "Git",
-    level: "50",
+    level: "70",
   },
   {
     icon: react,
-    name: "Docker",
+    name: "Linux",
     level: "60"
   },
   {
     icon: react,
-    name: "Kubernetes",
-    level: "40"
+    name: "Nginx",
+    level: "60"
   },
   {
     icon: react,
-    name: "Figma",
-    level: "50",
+    name: "Docker, Github-Actions, Apache-Kafka",
+    level: "90",
   },
   {
     icon: react,
-    name: "Photoshop",
+    name: "AWS",
     level: "50",
   },
 ];

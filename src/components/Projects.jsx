@@ -46,24 +46,29 @@ const Projects = props => {
           All
         </div>
         <div
-          onClick={() => handleSort("react.js", "React")}
-          className={active === "React" ? "green" : ""}>
-          React
-        </div>
-        <div
           onClick={() => handleSort("vanilla", "Vanilla")}
           className={active === "Vanilla" ? "green" : ""}>
           Vanilla Js
         </div>
         <div
-          onClick={() => handleSort("node.js", "Node")}
+          onClick={() => handleSort("reactjs", "React")}
+          className={active === "React" ? "green" : ""}>
+          React
+        </div>
+        <div
+          onClick={() => handleSort("nextjs", "Next")}
+          className={active === "Next" ? "green" : ""}>
+          Next
+        </div>
+        <div
+          onClick={() => handleSort("nodejs", "Node")}
           className={active === "Node" ? "green" : ""}>
           Node
         </div>
         <div
-          onClick={() => handleSort("mongoDB", "MongoDB")}
-          className={active === "MongoDB" ? "green" : ""}>
-          MongoDB
+          onClick={() => handleSort("golang", "Golang")}
+          className={active === "Golang" ? "green" : ""}>
+          Golang
         </div>
       </div>
       <div className="row">

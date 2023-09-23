@@ -7,17 +7,49 @@ import facebook from "../../assets/projects_images/facebook.jpg";
 import todo from "../../assets/projects_images/todo-list.jpg";
 import netflix from "../../assets/projects_images/netflix.jpg";
 import rental from "../../assets/projects_images/rental-app.JPG";
-import story from "../../assets/projects_images/story.jpg";
+import gpshop from "../../assets/projects_images/gp-shop-revamped.png";
+import gpweb from '../../assets/projects_images/gp-web.png'
+import summery from '../../assets/projects_images/summery-app.png'
+import bhalogari from '../../assets/projects_images/bhalogari.png'
+import skillhub from '../../assets/projects_images/gpskillhub.png'
 import cart from "../../assets/projects_images/cart.jpg";
 
 
 const data_projects = [
   {
-    name: "StoryBooks",
-    image: story,
-    deployed_url: "https://node-story-creator.herokuapp.com/",
-    github_url: "https://github.com/i-1404063/StoryBooks",
-    category: ["node.js", "mongoDB"],
+    name: "GpShop",
+    image: gpshop,
+    deployed_url: "https://webtestda.grameenphone.com/shop",
+    github_url: "#",
+    category: ["nextjs"],
+  },
+  {
+    name: "GpWeb",
+    image: gpweb,
+    deployed_url: "https://webtestda.grameenphone.com",
+    github_url: "#",
+    category: ["nextjs"],
+  },
+  {
+    name: "Bhalogari",
+    image: bhalogari,
+    deployed_url: "https://bhalogari.com/",
+    github_url: "#",
+    category: ["reactjs"],
+  },
+  {
+    name: "MirSummery",
+    image: summery,
+    deployed_url: "https://mirsummery.ergov.com",
+    github_url: "#",
+    category: ['golang', 'reactjs'],
+  },
+   {
+    name: "Gpskillhub",
+    image: skillhub,
+    deployed_url: "http://gpskillhub.com/",
+    github_url: "#",
+    category: ['nodejs', 'reactjs'],
   },
   {
     name: "Glozzom",
@@ -38,14 +70,7 @@ const data_projects = [
     image: todo,
     deployed_url: "https://i-1404063.github.io/React-Todo-List/",
     github_url: "https://github.com/i-1404063/React-Todo-List",
-    category: ["react.js", "localStorage"],
-  },
-  {
-    name: "Expense Tracker",
-    image: tracker,
-    deployed_url: "https://i-1404063.github.io/Expense-Tracker/",
-    github_url: "https://github.com/i-1404063/Expense-Tracker",
-    category: ["react.js"],
+    category: ["reactjs", "localStorage"],
   },
 
   {
@@ -57,35 +82,11 @@ const data_projects = [
   },
 
   {
-    name: "Facebook Landing Page",
-    image: facebook,
-    deployed_url: "https://i-1404063.github.io/Facebook-landing-page/",
-    github_url: "https://github.com/i-1404063/Facebook-landing-page",
-    category: ["html_css", "vanilla"],
-  },
-
-  {
     name: "Item Lister",
     image: lister,
     deployed_url: "https://i-1404063.github.io/Item-Lister/",
     github_url: "https://github.com/i-1404063/Item-Lister",
     category: ["html_css", "vanilla"],
-  },
-
-  {
-    name: "Video Rental App",
-    image: rental,
-    deployed_url: "https://reactjs-vidly-frontend.herokuapp.com/movies",
-    github_url: "https://github.com/i-1404063/reactjs-vidly",
-    category: ["react.js", "node.js", "MongoDB"],
-  },
-
-  {
-    name: "Shopping Cart",
-    image: cart,
-    deployed_url: "https://i-1404063.github.io/shopping-cart.github.io/",
-    github_url: "https://github.com/i-1404063/shopping-cart.github.io",
-    category: ["vanilla"]
   },
 
   {

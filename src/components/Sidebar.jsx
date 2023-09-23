@@ -83,11 +83,10 @@ const Sidebar = props => {
             alt="location"
             className="sidebar__icon mr-2"
           />
-          Shyamoly,Dhaka
+          Adabor,Shyamoly,Dhaka
         </div>
         <div className="sidebar__item">imonhasans33@gmail.com</div>
-        <div className="sidebar__item">faruk.ahamad@jbbc.co.jp</div>
-        <div className="sidebar__item">01983-832024</div>
+        <div className="sidebar__item">01791-948088</div>
       </div>
       <div onClick={handleEmail} className="sidebar__item sidebar__email">
         Email me

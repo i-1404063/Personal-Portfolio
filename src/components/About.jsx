@@ -26,10 +26,12 @@ const About = props => {
       animate="visible"
       exit="exit">
       <h6 className="about__intro">
-        I have more than a year of hands on experience of different web technology.
+        I have always found myself intrigued by software engineering and passionate enough to learn new technologies. 
+        I am a team player who loves to find out something new discussing with team and try new things. 
+        I want to diversify myself from software development to infrastructure coding.
       </h6>
       <div className="container about__container">
-        <h5 className="about__heading">What I Offer</h5>
+        <h5 className="about__heading">What I have Worked on</h5>
         <div className="row">
           {skills.map((skill, index) => (
             <SkillCard skill={skill} key={index} />
