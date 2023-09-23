@@ -1,18 +1,15 @@
 import glozzom from "../../assets/projects_images/glozzom.jpg";
-import tracker from "../../assets/projects_images/expense-tracker.jpg";
 import mizuxe from "../../assets/projects_images/mizuxe.jpg";
 import lister from "../../assets/projects_images/itemLister.jpg";
 import loop from "../../assets/projects_images/loop.jpg";
-import facebook from "../../assets/projects_images/facebook.jpg";
 import todo from "../../assets/projects_images/todo-list.jpg";
 import netflix from "../../assets/projects_images/netflix.jpg";
-import rental from "../../assets/projects_images/rental-app.JPG";
 import gpshop from "../../assets/projects_images/gp-shop-revamped.png";
 import gpweb from '../../assets/projects_images/gp-web.png'
 import summery from '../../assets/projects_images/summery-app.png'
 import bhalogari from '../../assets/projects_images/bhalogari.png'
 import skillhub from '../../assets/projects_images/gpskillhub.png'
-import cart from "../../assets/projects_images/cart.jpg";
+
 
 
 const data_projects = [
