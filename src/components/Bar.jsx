@@ -1,7 +1,7 @@
 import React from "react";
 
 const Bar = ({ value: { icon, name, level } }) => {
-  const bar__width = `${level}%`;
+  const bar__width = `${level}%`
 
   return (
     <div className="bar">
