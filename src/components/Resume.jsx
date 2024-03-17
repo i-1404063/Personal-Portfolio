@@ -42,13 +42,20 @@ const Resume = () => {
         <div className="col-lg-6 resume__card">
           <h4 className="resume__card__heading">Experience</h4>
           <div className="resume__card__body">
+             <div>
+              <h5 className="resume__card__title">
+                Software Engineer
+              </h5>
+              <p>OrangeToolz</p>
+              <p style={{marginTop: "-20px"}} className="resume__card__name">November 2023 - Present</p>
+            </div>
             <div>
               <h5 className="resume__card__title">
                 Software Engineer
               </h5>
               <p>Mir Info Systems</p>
               <p style={{marginTop: "-20px"}} className="resume__card__name">
-                September 2021 - Present
+                September 2021 - October 2023
               </p>
             </div>
             <div>
@@ -57,15 +64,8 @@ const Resume = () => {
               </h5>
               <p>Bhalogari.com</p>
               <p style={{marginTop: "-20px"}} className="resume__card__name">
-                October 2020 - September 2021
+                July 2020 - September 2021
               </p>
-            </div>
-            <div>
-              <h5 className="resume__card__title">
-                Jr. Software Engineer
-              </h5>
-              <p>GridStacks</p>
-              <p style={{marginTop: "-20px"}} className="resume__card__name">March 2020 - October 2020</p>
             </div>
           </div>
         </div>
